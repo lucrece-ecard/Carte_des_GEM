@@ -58,7 +58,7 @@
         }
         var map = L.map('map', {
             zoomControl:false, maxZoom:20, minZoom:1
-        }).fitBounds([[39.66692874274632,-5.2504555246722955],[50.78623162431529,14.62564324859543]]);
+        }).fitBounds([[38.556617589282666,-17.584372738359335],[54.11737833715693,24.219716111260453]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -158,7 +158,7 @@
         function style_GEMtroublespsychiquesplusieurspublics_1_0() {
             return {
                 pane: 'pane_GEMtroublespsychiquesplusieurspublics_1',
-                radius: 4.0,
+                radius: 5.0,
                 opacity: 1,
                 color: 'rgba(80,61,18,1.0)',
                 dashArray: '',
@@ -207,7 +207,7 @@
         <td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; color: #5a945c;">' + 
             (feature.properties['Nom'] !== null ? autolinker.link(feature.properties['Nom'].toLocaleString()) : '') + 
         '</td>\
-    </tr>\
+                    </tr>\
                     <tr>\
                         <th scope="row">Adresse</th>\
                         <td class="visible-with-data" id="Adresse">' + (feature.properties['Adresse'] !== null ? autolinker.link(feature.properties['Adresse'].toLocaleString()) : '') + '</td>\
@@ -239,7 +239,7 @@
         function style_GEMlsioncrbrale_2_0() {
             return {
                 pane: 'pane_GEMlsioncrbrale_2',
-                radius: 4.0,
+                radius: 5.0,
                 opacity: 1,
                 color: 'rgba(35,55,35,1.0)',
                 dashArray: '',
@@ -288,7 +288,7 @@
         <td colspan="2" style="text-align: center; font-size: 16px; font-weight: bold; color: #3f6dca;">' + 
             (feature.properties['Nom'] !== null ? autolinker.link(feature.properties['Nom'].toLocaleString()) : '') + 
         '</td>\
-    </tr>\
+                    </tr>\
                     <tr>\
                         <th scope="row">Adresse</th>\
                         <td class="visible-with-data" id="Adresse">' + (feature.properties['Adresse'] !== null ? autolinker.link(feature.properties['Adresse'].toLocaleString()) : '') + '</td>\
@@ -320,7 +320,7 @@
         function style_GEMTSATND_3_0() {
             return {
                 pane: 'pane_GEMTSATND_3',
-                radius: 4.0,
+                radius: 5.0,
                 opacity: 1,
                 color: 'rgba(26,34,62,1.0)',
                 dashArray: '',
