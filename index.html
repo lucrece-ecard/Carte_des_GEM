@@ -99,10 +99,13 @@
         }
         map.createPane('pane_OSMStandard_0');
         map.getPane('pane_OSMStandard_0').style.zIndex = 400;
+
+	var updateDate = "Mise à jour : 4 mars 2025";
+
         var layer_OSMStandard_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             pane: 'pane_OSMStandard_0',
             opacity: 1.0,
-            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a> | ' + updateDate,
             minZoom: 3,
             maxZoom: 20,
             minNativeZoom: 0,
